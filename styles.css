@@ -3,6 +3,6 @@ body {
     background-color: #222222;
 }
 
-article {
+.post-header, .post-text, .post-footer {
     color: #fff;
 }
