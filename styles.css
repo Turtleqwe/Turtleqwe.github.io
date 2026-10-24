@@ -1,83 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    color: #fff;
     background-color: #222;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-article {
     color: #fff;
-    width: 30dvw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: left;
 }
 
-.post-header {
-    font-size: 4dvh;
-    margin-left: 1dvw;
-    color: #00e5ff;
+#header {
+    background-color: #29773E;
+    margin: 0;
+    padding: 0;
+    height: 7.5dvh;
+    display: flex;
+    align-items: center;
 }
 
-.post-text {
-    font-size: 2.25dvh;
-    margin-left: 1dvw;
-}
-
-.post-footer {
-    font-size: 2.25dvh;
-    margin-top: -3.5dvh;
-    margin-left: 0.5dvw;
-}
-
-.page-header {
-    background-color: #00892B;
-    color: #fff;
-    margin-top: -1dvh;
-    margin-left: -0.5dvw;
-    margin-right: -0.5dvw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 6dvh;
-    width: 100dvw;
-}
-
-.page-title {
-    float: left;
-    margin-left: 1dvw;
-    color: #fff;
-    margin-top: 1dvh;
+.article {
+    background-color: #444;
+    height: 25dvh;
+    width: 75dvw;
+    display: flex;
+    justify-self: center;
+    margin-top: 5dvh;
 }
 
 a {
     text-decoration: none;
+    color: #4493F8;
 }
 
-@media screen and (min-width: 770px) {
-    .article-div {
-        background-color: #444;
-        height: 26dvh;
-    }
-
-    .post-div {
-        background-color: #2699a6;
-        height: 4.25dvh;
-        margin-top: 8.25dvh;
-    }
+a:hover {
+    text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    .article-div {
-        background-color: #444;
-        height: 18dvh;
-        width: 77.5dvw;
-    }
+.article-title {
+    padding: 1dvw;
+    font-size: 5dvh;
+}
 
-    .page-header {
-        width: 85dvw;
-        margin-left: -2.25dvw;
-    }
-
-    .post-div {
-        background-color: #2699a6;
-        height: 4.25dvh;
-        margin-top: 1dvh;
-    }
+#turtle-video {
+    width: 100dvw;
 }
